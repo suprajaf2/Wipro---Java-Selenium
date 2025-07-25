@@ -10,10 +10,9 @@ public class AttendanceSystem {
         ArrayList<String> students = new ArrayList<>();
         HashMap<String, String> attendance = new HashMap<>();
 
-        // Add students
         System.out.print("Enter number of students: ");
         int n = scanner.nextInt();
-        scanner.nextLine();  // consume newline
+        scanner.nextLine();  
 
         for (int i = 0; i < n; i++) {
             System.out.print("Enter name of student " + (i + 1) + ": ");
@@ -21,19 +20,17 @@ public class AttendanceSystem {
             students.add(name);
         }
         
-
-        // Mark attendance
         System.out.println("\nMark attendance (P for Present, A for Absent):");
         for (String name : students) {
             System.out.print(name + ": ");
             String status = scanner.nextLine().trim().toUpperCase();
             if (!status.equals("P") && !status.equals("A")) {
-                status = "A"; // Default to absent if invalid input
+                status = "A"; 
             }
             attendance.put(name, status);
         }
 
-        // Display attendance report
+        
         System.out.println("\n--- Attendance Report ---");
         for (String name : students) {
             System.out.println(name + ": " + (attendance.get(name).equals("P") ? "Present" : "Absent"));
