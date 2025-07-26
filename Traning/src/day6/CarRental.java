@@ -11,4 +11,8 @@ class CarRental implements VehicleRental {
     }
 
     // Uses default showRentalTerms() from interface
+    public void showRentalTerms()
+    {
+    	System.out.println("Rental Terms for Car: Valid license required, full fuel tank return.");
+    }
 }

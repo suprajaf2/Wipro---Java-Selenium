@@ -6,13 +6,13 @@ public class RentalApp {
         VehicleRental bike = new BikeRental();
 
         // Car rental
-        car.rentVehicle("Alice", 3);
+        car.rentVehicle("Alice", 0);
         car.showRentalTerms();
 
         System.out.println();
 
         // Bike rental
-        bike.rentVehicle("Bob", 2);
+        bike.rentVehicle("Bob", 0);
         bike.showRentalTerms();
     }
 }

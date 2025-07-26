@@ -10,7 +10,6 @@ class BikeRental implements VehicleRental {
         }
     }
 
-    // Custom rental terms
     @Override
     public void showRentalTerms() {
         System.out.println("Rental Terms for Bikes: Helmet mandatory, full fuel tank return.");
