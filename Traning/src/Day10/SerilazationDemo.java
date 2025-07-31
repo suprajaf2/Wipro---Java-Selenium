@@ -2,7 +2,6 @@ package Day10;
 
 import java.io.*;
 
-// ✅ Make the class Serializable
 class Student6 implements Serializable {
     private static final long serialVersionUID = 1L;
 
@@ -46,7 +45,7 @@ public class SerilazationDemo {
         s1.setAge(21);
 
         // Serialization
-        FileOutputStream out = new FileOutputStream("C:\\Users\\M.SUPRAJA\\Desktop\\output.txt");
+        FileOutputStream out = new FileOutputStream("C:\\Users\\M.SUPRAJA\\Downloads\\output.txt");
         ObjectOutputStream output = new ObjectOutputStream(out);
         output.writeObject(s1);
         output.close();
@@ -54,7 +53,7 @@ public class SerilazationDemo {
         System.out.println("Object serialized successfully.");
 
         // Deserialization
-        FileInputStream in = new FileInputStream("C:\\Users\\M.SUPRAJA\\Desktop\\output.txt");
+        FileInputStream in = new FileInputStream("C:\\Users\\M.SUPRAJA\\Downloads\\output.txt");
         ObjectInputStream input = new ObjectInputStream(in);
         Student6 s2 = (Student6) input.readObject();
         input.close();
