@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.BagistoStepByStepTest">
+        <methods>
+          <include name="enterCity"/>
+          <include name="clickNewCustomerLogin"/>
+          <include name="waitForAgreeBtn"/>
+          <include name="openNotifications"/>
+          <include name="clickAgreeBtn"/>
+          <include name="enterFirstName"/>
+          <include name="clickAddress"/>
+          <include name="enterEmail"/>
+          <include name="clickFirstSearchResult"/>
+          <include name="tearDown"/>
+          <include name="clickCustomersDiv"/>
+          <include name="enterStreetAddress"/>
+          <include name="clickAddAddressBtn"/>
+          <include name="enterPhone"/>
+          <include name="clickSaveAddressBtn"/>
+          <include name="enterPassword"/>
+          <include name="enterPostCode"/>
+          <include name="goToCustomersMenu"/>
+          <include name="captureResult"/>
+          <include name="setUp"/>
+          <include name="clickSaveCustomerBtn"/>
+          <include name="enterAddressEmail"/>
+          <include name="clickCustomersSubMenu"/>
+          <include name="clickCreateCustomerBtn"/>
+          <include name="selectToday"/>
+          <include name="waitForSearchResults"/>
+          <include name="enableDarkMode"/>
+          <include name="flushReport"/>
+          <include name="setUpReport"/>
+          <include name="selectState"/>
+          <include name="waitForDeleteIcon"/>
+          <include name="enterLastName"/>
+          <include name="clickDeleteIcon"/>
+          <include name="enterCustomerEmail"/>
+          <include name="openCalendar"/>
+          <include name="selectGender"/>
+          <include name="enterAddressFirstName"/>
+          <include name="startTest"/>
+          <include name="selectCountry"/>
+          <include name="searchCustomer"/>
+          <include name="openAdminPanel"/>
+          <include name="enterAddressLastName"/>
+          <include name="clickSignIn"/>
+          <include name="clickViewAllNotifications"/>
+        </methods>
+      </class> <!-- tests.BagistoStepByStepTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

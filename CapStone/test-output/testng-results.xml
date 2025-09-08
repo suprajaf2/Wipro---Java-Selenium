@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="40" passed="39" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-08T12:44:19 IST" name="Suite" finished-at="2025-09-08T12:45:43 IST" duration-ms="84323">
+    <groups>
+    </groups>
+    <test started-at="2025-09-08T12:44:19 IST" name="Test" finished-at="2025-09-08T12:45:43 IST" duration-ms="84323">
+      <class name="tests.BagistoStepByStepTest">
+        <test-method is-config="true" signature="setUpReport()[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:19 IST" name="setUpReport" finished-at="2025-09-08T12:44:19 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:19 IST" name="setUp" finished-at="2025-09-08T12:44:21 IST" duration-ms="1578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:21 IST" name="startTest" finished-at="2025-09-08T12:44:21 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.openAdminPanel()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="openAdminPanel()[pri:1, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:21 IST" name="openAdminPanel" finished-at="2025-09-08T12:44:24 IST" duration-ms="3346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAdminPanel -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:24 IST" name="captureResult" finished-at="2025-09-08T12:44:24 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openAdminPanel status=SUCCESS method=BagistoStepByStepTest.openAdminPanel()[pri:1, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method signature="enterEmail()[pri:2, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:24 IST" name="enterEmail" finished-at="2025-09-08T12:44:24 IST" depends-on-methods="tests.BagistoStepByStepTest.openAdminPanel" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterEmail -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:24 IST" name="startTest" finished-at="2025-09-08T12:44:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.enterEmail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:24 IST" name="captureResult" finished-at="2025-09-08T12:44:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterEmail status=SUCCESS method=BagistoStepByStepTest.enterEmail()[pri:2, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method signature="enterPassword()[pri:3, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:24 IST" name="enterPassword" finished-at="2025-09-08T12:44:24 IST" depends-on-methods="tests.BagistoStepByStepTest.enterEmail" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPassword -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:24 IST" name="startTest" finished-at="2025-09-08T12:44:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.enterPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:24 IST" name="captureResult" finished-at="2025-09-08T12:44:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterPassword status=SUCCESS method=BagistoStepByStepTest.enterPassword()[pri:3, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method signature="clickSignIn()[pri:4, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:24 IST" name="clickSignIn" finished-at="2025-09-08T12:44:24 IST" depends-on-methods="tests.BagistoStepByStepTest.enterPassword" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSignIn -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:24 IST" name="startTest" finished-at="2025-09-08T12:44:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.clickSignIn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:24 IST" name="captureResult" finished-at="2025-09-08T12:44:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickSignIn status=SUCCESS method=BagistoStepByStepTest.clickSignIn()[pri:4, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method signature="enableDarkMode()[pri:5, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:24 IST" name="enableDarkMode" finished-at="2025-09-08T12:44:28 IST" depends-on-methods="tests.BagistoStepByStepTest.clickSignIn" duration-ms="3050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enableDarkMode -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:24 IST" name="startTest" finished-at="2025-09-08T12:44:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.enableDarkMode()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:28 IST" name="captureResult" finished-at="2025-09-08T12:44:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enableDarkMode status=SUCCESS method=BagistoStepByStepTest.enableDarkMode()[pri:5, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method signature="openCalendar()[pri:6, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:28 IST" name="openCalendar" finished-at="2025-09-08T12:44:28 IST" depends-on-methods="tests.BagistoStepByStepTest.enableDarkMode" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCalendar -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:28 IST" name="startTest" finished-at="2025-09-08T12:44:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.openCalendar()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:28 IST" name="captureResult" finished-at="2025-09-08T12:44:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openCalendar status=SUCCESS method=BagistoStepByStepTest.openCalendar()[pri:6, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:28 IST" name="startTest" finished-at="2025-09-08T12:44:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.selectToday()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="selectToday()[pri:7, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:28 IST" name="selectToday" finished-at="2025-09-08T12:44:28 IST" depends-on-methods="tests.BagistoStepByStepTest.openCalendar" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectToday -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:28 IST" name="captureResult" finished-at="2025-09-08T12:44:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectToday status=SUCCESS method=BagistoStepByStepTest.selectToday()[pri:7, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:28 IST" name="startTest" finished-at="2025-09-08T12:44:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.openNotifications()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="openNotifications()[pri:8, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:28 IST" name="openNotifications" finished-at="2025-09-08T12:44:28 IST" depends-on-methods="tests.BagistoStepByStepTest.selectToday" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openNotifications -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:28 IST" name="captureResult" finished-at="2025-09-08T12:44:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openNotifications status=SUCCESS method=BagistoStepByStepTest.openNotifications()[pri:8, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:28 IST" name="startTest" finished-at="2025-09-08T12:44:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.clickViewAllNotifications()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="clickViewAllNotifications()[pri:9, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:28 IST" name="clickViewAllNotifications" finished-at="2025-09-08T12:44:31 IST" depends-on-methods="tests.BagistoStepByStepTest.openNotifications" duration-ms="2540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickViewAllNotifications -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:31 IST" name="captureResult" finished-at="2025-09-08T12:44:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickViewAllNotifications status=SUCCESS method=BagistoStepByStepTest.clickViewAllNotifications()[pri:9, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:31 IST" name="startTest" finished-at="2025-09-08T12:44:31 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.searchCustomer() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="searchCustomer()[pri:10, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:31 IST" name="searchCustomer" finished-at="2025-09-08T12:44:34 IST" depends-on-methods="tests.BagistoStepByStepTest.clickViewAllNotifications" duration-ms="3132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomer -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:34 IST" name="captureResult" finished-at="2025-09-08T12:44:34 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchCustomer status=SUCCESS method=BagistoStepByStepTest.searchCustomer()[pri:10, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method signature="clickCustomersDiv()[pri:11, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:34 IST" name="clickCustomersDiv" finished-at="2025-09-08T12:44:34 IST" depends-on-methods="tests.BagistoStepByStepTest.searchCustomer" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCustomersDiv -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:34 IST" name="startTest" finished-at="2025-09-08T12:44:34 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.clickCustomersDiv()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:34 IST" name="captureResult" finished-at="2025-09-08T12:44:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickCustomersDiv status=SUCCESS method=BagistoStepByStepTest.clickCustomersDiv()[pri:11, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:34 IST" name="startTest" finished-at="2025-09-08T12:44:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.waitForSearchResults()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="waitForSearchResults()[pri:12, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:34 IST" name="waitForSearchResults" finished-at="2025-09-08T12:44:34 IST" depends-on-methods="tests.BagistoStepByStepTest.clickCustomersDiv" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForSearchResults -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:34 IST" name="captureResult" finished-at="2025-09-08T12:44:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=waitForSearchResults status=SUCCESS method=BagistoStepByStepTest.waitForSearchResults()[pri:12, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:34 IST" name="startTest" finished-at="2025-09-08T12:44:34 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.clickFirstSearchResult()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="clickFirstSearchResult()[pri:13, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:34 IST" name="clickFirstSearchResult" finished-at="2025-09-08T12:44:36 IST" depends-on-methods="tests.BagistoStepByStepTest.waitForSearchResults" duration-ms="2679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFirstSearchResult -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:36 IST" name="captureResult" finished-at="2025-09-08T12:44:36 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickFirstSearchResult status=SUCCESS method=BagistoStepByStepTest.clickFirstSearchResult()[pri:13, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method signature="waitForDeleteIcon()[pri:14, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:36 IST" name="waitForDeleteIcon" finished-at="2025-09-08T12:44:36 IST" depends-on-methods="tests.BagistoStepByStepTest.clickFirstSearchResult" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForDeleteIcon -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:36 IST" name="startTest" finished-at="2025-09-08T12:44:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.waitForDeleteIcon()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:36 IST" name="captureResult" finished-at="2025-09-08T12:44:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=waitForDeleteIcon status=SUCCESS method=BagistoStepByStepTest.waitForDeleteIcon()[pri:14, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:36 IST" name="startTest" finished-at="2025-09-08T12:44:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.clickDeleteIcon()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="clickDeleteIcon()[pri:15, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:36 IST" name="clickDeleteIcon" finished-at="2025-09-08T12:44:37 IST" depends-on-methods="tests.BagistoStepByStepTest.waitForDeleteIcon" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickDeleteIcon -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:37 IST" name="captureResult" finished-at="2025-09-08T12:44:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickDeleteIcon status=SUCCESS method=BagistoStepByStepTest.clickDeleteIcon()[pri:15, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:37 IST" name="startTest" finished-at="2025-09-08T12:44:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.waitForAgreeBtn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="waitForAgreeBtn()[pri:16, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:37 IST" name="waitForAgreeBtn" finished-at="2025-09-08T12:44:37 IST" depends-on-methods="tests.BagistoStepByStepTest.clickDeleteIcon" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForAgreeBtn -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:37 IST" name="captureResult" finished-at="2025-09-08T12:44:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=waitForAgreeBtn status=SUCCESS method=BagistoStepByStepTest.waitForAgreeBtn()[pri:16, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method signature="clickAgreeBtn()[pri:17, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:37 IST" name="clickAgreeBtn" finished-at="2025-09-08T12:44:37 IST" depends-on-methods="tests.BagistoStepByStepTest.waitForAgreeBtn" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAgreeBtn -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:37 IST" name="startTest" finished-at="2025-09-08T12:44:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.clickAgreeBtn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:37 IST" name="captureResult" finished-at="2025-09-08T12:44:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickAgreeBtn status=SUCCESS method=BagistoStepByStepTest.clickAgreeBtn()[pri:17, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method signature="goToCustomersMenu()[pri:18, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:37 IST" name="goToCustomersMenu" finished-at="2025-09-08T12:44:42 IST" depends-on-methods="tests.BagistoStepByStepTest.clickAgreeBtn" duration-ms="4916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToCustomersMenu -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:37 IST" name="startTest" finished-at="2025-09-08T12:44:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.goToCustomersMenu()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:42 IST" name="captureResult" finished-at="2025-09-08T12:44:42 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToCustomersMenu status=SUCCESS method=BagistoStepByStepTest.goToCustomersMenu()[pri:18, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method signature="clickCustomersSubMenu()[pri:19, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:42 IST" name="clickCustomersSubMenu" finished-at="2025-09-08T12:44:44 IST" depends-on-methods="tests.BagistoStepByStepTest.goToCustomersMenu" duration-ms="2070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCustomersSubMenu -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:42 IST" name="startTest" finished-at="2025-09-08T12:44:42 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.clickCustomersSubMenu()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:44 IST" name="captureResult" finished-at="2025-09-08T12:44:44 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickCustomersSubMenu status=SUCCESS method=BagistoStepByStepTest.clickCustomersSubMenu()[pri:19, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:44 IST" name="startTest" finished-at="2025-09-08T12:44:44 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.clickCreateCustomerBtn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="clickCreateCustomerBtn()[pri:20, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:44 IST" name="clickCreateCustomerBtn" finished-at="2025-09-08T12:44:44 IST" depends-on-methods="tests.BagistoStepByStepTest.clickCustomersSubMenu" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCreateCustomerBtn -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:44 IST" name="captureResult" finished-at="2025-09-08T12:44:44 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickCreateCustomerBtn status=SUCCESS method=BagistoStepByStepTest.clickCreateCustomerBtn()[pri:20, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:44 IST" name="startTest" finished-at="2025-09-08T12:44:44 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.enterFirstName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="enterFirstName()[pri:21, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:44 IST" name="enterFirstName" finished-at="2025-09-08T12:44:45 IST" depends-on-methods="tests.BagistoStepByStepTest.clickCreateCustomerBtn" duration-ms="621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterFirstName -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:45 IST" name="captureResult" finished-at="2025-09-08T12:44:45 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterFirstName status=SUCCESS method=BagistoStepByStepTest.enterFirstName()[pri:21, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:45 IST" name="startTest" finished-at="2025-09-08T12:44:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.enterLastName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="enterLastName()[pri:22, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:45 IST" name="enterLastName" finished-at="2025-09-08T12:44:45 IST" depends-on-methods="tests.BagistoStepByStepTest.enterFirstName" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLastName -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:45 IST" name="captureResult" finished-at="2025-09-08T12:44:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterLastName status=SUCCESS method=BagistoStepByStepTest.enterLastName()[pri:22, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:45 IST" name="startTest" finished-at="2025-09-08T12:44:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.enterCustomerEmail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="enterCustomerEmail()[pri:23, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:45 IST" name="enterCustomerEmail" finished-at="2025-09-08T12:44:45 IST" depends-on-methods="tests.BagistoStepByStepTest.enterLastName" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCustomerEmail -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:45 IST" name="captureResult" finished-at="2025-09-08T12:44:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterCustomerEmail status=SUCCESS method=BagistoStepByStepTest.enterCustomerEmail()[pri:23, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method signature="selectGender()[pri:24, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:45 IST" name="selectGender" finished-at="2025-09-08T12:44:45 IST" depends-on-methods="tests.BagistoStepByStepTest.enterCustomerEmail" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectGender -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:45 IST" name="startTest" finished-at="2025-09-08T12:44:45 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.selectGender()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:45 IST" name="captureResult" finished-at="2025-09-08T12:44:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectGender status=SUCCESS method=BagistoStepByStepTest.selectGender()[pri:24, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:45 IST" name="startTest" finished-at="2025-09-08T12:44:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.clickSaveCustomerBtn() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="clickSaveCustomerBtn()[pri:25, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:45 IST" name="clickSaveCustomerBtn" finished-at="2025-09-08T12:44:49 IST" depends-on-methods="tests.BagistoStepByStepTest.selectGender" duration-ms="4093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSaveCustomerBtn -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:49 IST" name="captureResult" finished-at="2025-09-08T12:44:49 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickSaveCustomerBtn status=SUCCESS method=BagistoStepByStepTest.clickSaveCustomerBtn()[pri:25, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:49 IST" name="startTest" finished-at="2025-09-08T12:44:49 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.clickNewCustomerLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="clickNewCustomerLogin()[pri:26, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:49 IST" name="clickNewCustomerLogin" finished-at="2025-09-08T12:44:50 IST" depends-on-methods="tests.BagistoStepByStepTest.clickSaveCustomerBtn" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickNewCustomerLogin -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:50 IST" name="captureResult" finished-at="2025-09-08T12:44:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickNewCustomerLogin status=SUCCESS method=BagistoStepByStepTest.clickNewCustomerLogin()[pri:26, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method signature="clickAddress()[pri:27, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:50 IST" name="clickAddress" finished-at="2025-09-08T12:44:54 IST" depends-on-methods="tests.BagistoStepByStepTest.clickNewCustomerLogin" duration-ms="4497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAddress -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:50 IST" name="startTest" finished-at="2025-09-08T12:44:50 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.clickAddress()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:54 IST" name="captureResult" finished-at="2025-09-08T12:44:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickAddress status=SUCCESS method=BagistoStepByStepTest.clickAddress()[pri:27, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method signature="clickAddAddressBtn()[pri:28, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:54 IST" name="clickAddAddressBtn" finished-at="2025-09-08T12:44:56 IST" depends-on-methods="tests.BagistoStepByStepTest.clickAddress" duration-ms="2114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAddAddressBtn -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:54 IST" name="startTest" finished-at="2025-09-08T12:44:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.clickAddAddressBtn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:56 IST" name="captureResult" finished-at="2025-09-08T12:44:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickAddAddressBtn status=SUCCESS method=BagistoStepByStepTest.clickAddAddressBtn()[pri:28, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method signature="enterAddressFirstName()[pri:29, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:56 IST" name="enterAddressFirstName" finished-at="2025-09-08T12:44:56 IST" depends-on-methods="tests.BagistoStepByStepTest.clickAddAddressBtn" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterAddressFirstName -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:56 IST" name="startTest" finished-at="2025-09-08T12:44:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.enterAddressFirstName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:56 IST" name="captureResult" finished-at="2025-09-08T12:44:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterAddressFirstName status=SUCCESS method=BagistoStepByStepTest.enterAddressFirstName()[pri:29, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method signature="enterAddressLastName()[pri:30, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:56 IST" name="enterAddressLastName" finished-at="2025-09-08T12:44:56 IST" depends-on-methods="tests.BagistoStepByStepTest.enterAddressFirstName" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterAddressLastName -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:56 IST" name="startTest" finished-at="2025-09-08T12:44:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.enterAddressLastName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:56 IST" name="captureResult" finished-at="2025-09-08T12:44:56 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterAddressLastName status=SUCCESS method=BagistoStepByStepTest.enterAddressLastName()[pri:30, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method signature="enterAddressEmail()[pri:31, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:56 IST" name="enterAddressEmail" finished-at="2025-09-08T12:44:57 IST" depends-on-methods="tests.BagistoStepByStepTest.enterAddressLastName" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterAddressEmail -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:56 IST" name="startTest" finished-at="2025-09-08T12:44:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.enterAddressEmail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:57 IST" name="captureResult" finished-at="2025-09-08T12:44:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterAddressEmail status=SUCCESS method=BagistoStepByStepTest.enterAddressEmail()[pri:31, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:57 IST" name="startTest" finished-at="2025-09-08T12:44:57 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.enterStreetAddress()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="enterStreetAddress()[pri:32, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:57 IST" name="enterStreetAddress" finished-at="2025-09-08T12:44:57 IST" depends-on-methods="tests.BagistoStepByStepTest.enterAddressEmail" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterStreetAddress -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:57 IST" name="captureResult" finished-at="2025-09-08T12:44:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterStreetAddress status=SUCCESS method=BagistoStepByStepTest.enterStreetAddress()[pri:32, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method signature="selectCountry()[pri:33, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:57 IST" name="selectCountry" finished-at="2025-09-08T12:44:57 IST" depends-on-methods="tests.BagistoStepByStepTest.enterStreetAddress" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCountry -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:57 IST" name="startTest" finished-at="2025-09-08T12:44:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.selectCountry()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:57 IST" name="captureResult" finished-at="2025-09-08T12:44:57 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectCountry status=SUCCESS method=BagistoStepByStepTest.selectCountry()[pri:33, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:57 IST" name="startTest" finished-at="2025-09-08T12:44:57 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.selectState()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="selectState()[pri:34, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:57 IST" name="selectState" finished-at="2025-09-08T12:44:57 IST" depends-on-methods="tests.BagistoStepByStepTest.selectCountry" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectState -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:57 IST" name="captureResult" finished-at="2025-09-08T12:44:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectState status=SUCCESS method=BagistoStepByStepTest.selectState()[pri:34, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method signature="enterCity()[pri:35, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:57 IST" name="enterCity" finished-at="2025-09-08T12:44:57 IST" depends-on-methods="tests.BagistoStepByStepTest.selectState" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCity -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:57 IST" name="startTest" finished-at="2025-09-08T12:44:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.enterCity()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:57 IST" name="captureResult" finished-at="2025-09-08T12:44:57 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterCity status=SUCCESS method=BagistoStepByStepTest.enterCity()[pri:35, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method signature="enterPostCode()[pri:36, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:57 IST" name="enterPostCode" finished-at="2025-09-08T12:44:57 IST" depends-on-methods="tests.BagistoStepByStepTest.enterCity" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPostCode -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:57 IST" name="startTest" finished-at="2025-09-08T12:44:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.enterPostCode()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:57 IST" name="captureResult" finished-at="2025-09-08T12:44:57 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterPostCode status=SUCCESS method=BagistoStepByStepTest.enterPostCode()[pri:36, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:57 IST" name="startTest" finished-at="2025-09-08T12:44:57 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.enterPhone()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="enterPhone()[pri:37, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:57 IST" name="enterPhone" finished-at="2025-09-08T12:44:57 IST" depends-on-methods="tests.BagistoStepByStepTest.enterPostCode" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPhone -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:57 IST" name="captureResult" finished-at="2025-09-08T12:44:57 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterPhone status=SUCCESS method=BagistoStepByStepTest.enterPhone()[pri:37, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method signature="clickSaveAddressBtn()[pri:38, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:57 IST" name="clickSaveAddressBtn" finished-at="2025-09-08T12:45:12 IST" depends-on-methods="tests.BagistoStepByStepTest.enterPhone" duration-ms="15017" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(text(),'Saup')] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\M8112~1.SUP\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58136}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58136/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d8c63874d1660fc6d036ef507e91d65]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(text(),'Saup')] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\M8112~1.SUP\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58136}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58136/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d8c63874d1660fc6d036ef507e91d65
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pages.AddressPage.clickSaveBtn(AddressPage.java:119)
+at tests.BagistoStepByStepTest.clickSaveAddressBtn(BagistoStepByStepTest.java:206)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSaveAddressBtn -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:44:57 IST" name="startTest" finished-at="2025-09-08T12:44:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BagistoStepByStepTest.clickSaveAddressBtn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:45:12 IST" name="captureResult" finished-at="2025-09-08T12:45:13 IST" duration-ms="231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickSaveAddressBtn status=FAILURE method=BagistoStepByStepTest.clickSaveAddressBtn()[pri:38, instance:tests.BagistoStepByStepTest@77f80c04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:45:13 IST" name="tearDown" finished-at="2025-09-08T12:45:13 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:tests.BagistoStepByStepTest@77f80c04]" started-at="2025-09-08T12:45:43 IST" name="flushReport" finished-at="2025-09-08T12:45:44 IST" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- tests.BagistoStepByStepTest -->
+      <class name="tests.RegExcel">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.RegExcel@63070bab]" started-at="2025-09-08T12:45:14 IST" name="setUp" finished-at="2025-09-08T12:45:19 IST" duration-ms="4459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signupTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.RegExcel@63070bab]" started-at="2025-09-08T12:45:19 IST" name="signupTest" data-provider="signupData" finished-at="2025-09-08T12:45:29 IST" duration-ms="9871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bobs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[
+Doe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bobbys13@example.com ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[bob123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[bob123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegExcel@63070bab]" started-at="2025-09-08T12:45:29 IST" name="tearDown" finished-at="2025-09-08T12:45:29 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.RegExcel@63070bab]" started-at="2025-09-08T12:45:29 IST" name="setUp" finished-at="2025-09-08T12:45:33 IST" duration-ms="4492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signupTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.RegExcel@63070bab]" started-at="2025-09-08T12:45:33 IST" name="signupTest" data-provider="signupData" finished-at="2025-09-08T12:45:43 IST" duration-ms="9774" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alies]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dom]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Alies@example.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[alie123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[alie123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegExcel@63070bab]" started-at="2025-09-08T12:45:43 IST" name="tearDown" finished-at="2025-09-08T12:45:43 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RegExcel -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
